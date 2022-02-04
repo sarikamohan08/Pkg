@@ -3,20 +3,21 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PROJECT_NAME= "Demo_pkg"
+PACKAGE_NAME= "Demo-pkg"
 USER_NAME ="sarikamohan08"
+PROJECT_NAME="Demo_pkg"
 
 setuptools.setup(
-    name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
+    name=f"{PACKAGE_NAME}-{USER_NAME}",
+    version="0.0.2",
     author=USER_NAME,
     author_email="sarikamohan08@gmail.com",
     description="A small demo package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
+    url=f"https://github.com/{USER_NAME}/{PACKAGE_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{USER_NAME}/{PACKAGE_NAME}/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
