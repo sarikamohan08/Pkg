@@ -10,7 +10,7 @@ setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.1",
     author=USER_NAME,
-    author_email="sarikamohan08gmail.com",
+    author_email="sarikamohan08@gmail.com",
     description="A small demo package",
     long_description=long_description,
     long_description_content_type="text/markdown",
